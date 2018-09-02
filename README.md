@@ -1,4 +1,4 @@
-# NeedfulThings
+# Needful Things
 A list of commands and notes I have found useful 
 
 ### Unset Global Proxies
