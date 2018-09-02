@@ -14,3 +14,6 @@ git branch --merged dev | grep -v '^[ *]*dev$' | xargs git branch -d
 ssh-keygen -t rsa
 
 pbcopy < ~/.ssh/id_rsa.pub
+
+## Use npm help-search 
+npm help-search <some word or phrase>
