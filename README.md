@@ -1,5 +1,5 @@
 # NeedfulThings
-list of commands and notes i have found useful in my short development career
+A list of commands and notes I have found useful 
 
 ### Unset Global Proxies
 git config --global --unset https.proxy
