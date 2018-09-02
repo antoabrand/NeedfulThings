@@ -15,5 +15,7 @@ ssh-keygen -t rsa
 
 pbcopy < ~/.ssh/id_rsa.pub
 
-## Use npm help-search 
-npm help-search <some word or phrase>
+## Use npm commands
+npm help-search 
+
+npm list --depth 0 --long true
