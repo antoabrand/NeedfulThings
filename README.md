@@ -24,6 +24,6 @@ npm list --depth 0 --long true
 
 FLOW-TYPED
 
-flow-typed install <package>@<version>
+flow-typed install package@version
 
-flow-typed create-stub <package>@<version>
+flow-typed create-stub package@version
