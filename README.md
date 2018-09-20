@@ -19,3 +19,11 @@ pbcopy < ~/.ssh/id_rsa.pub
 npm help-search 
 
 npm list --depth 0 --long true
+
+## Flow 
+
+FLOW-TYPED
+
+flow-typed install <package>@<version>
+
+flow-typed create-stub <package>@<version>
