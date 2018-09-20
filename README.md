@@ -16,9 +16,15 @@ git branch --merged dev | grep -v '^[ *]*dev$' | xargs git branch -d
  open -na "Google Chrome" --args --disable-web-security --user-data-dir="/tmp/chrome-dev-session"
  
 ## Key gen and copy to clipboard 
+
+#### For Mac
 ssh-keygen -t rsa
 
 pbcopy < ~/.ssh/id_rsa.pub
+
+#### For Windows
+
+(under construction)
 
 ## npm commands
 npm help-search 
