@@ -15,7 +15,7 @@ git branch --merged dev | grep -v '^[ *]*dev$' | xargs git branch -d
 ## Open Chrome unsecured 
  open -na "Google Chrome" --args --disable-web-security --user-data-dir="/tmp/chrome-dev-session"
  
-## key gen and copy to clipboard 
+## Key gen and copy to clipboard 
 ssh-keygen -t rsa
 
 pbcopy < ~/.ssh/id_rsa.pub
