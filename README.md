@@ -1,7 +1,12 @@
 # Needful Things
 A list of commands and notes I have found useful 
 
-### Unset Global Proxies
+## Git
+
+#### merge a single file 
+git checkout branch path/to/file
+
+#### Unset Global Proxies
 git config --global --unset https.proxy
 
 ### Clean local git branches that aren’t part of remote  - change dev to master if you need to 
