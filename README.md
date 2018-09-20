@@ -3,7 +3,7 @@ A list of commands and notes I have found useful
 
 ## Git
 
-#### merge a single file 
+#### Merge a single file 
 git checkout branch path/to/file
 
 #### Unset Global Proxies
