@@ -38,3 +38,15 @@ FLOW-TYPED
 flow-typed install package@version
 
 flow-typed create-stub package@version
+
+## Prettier
+scripts:{
+ "pretty": "prettier --write --tab-width 2 \"src/**/*.ts\"",
+ "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "npm run pretty",
+      "git add"
+    ]
+  },
