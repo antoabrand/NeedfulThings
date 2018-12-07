@@ -1,6 +1,3 @@
-# Needful Things
-A list of commands and notes I have found useful 
-
 ## Git
 
 #### Merge a single file 
