@@ -47,3 +47,9 @@ scripts:{
       "git add"
     ]
   },
+
+## MAC
+
+#### SPCTL
+
+sudo spctl --master-disable
