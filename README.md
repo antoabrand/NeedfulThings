@@ -52,4 +52,4 @@ scripts:{
 
 #### SPCTL
 
-sudo spctl --master-disable
+sudo spctl --master-disable //enables the ability to Allow 3rd party developer tools in Security and Privacy -> Allow
