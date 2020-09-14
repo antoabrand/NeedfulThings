@@ -50,6 +50,8 @@ scripts:{
 
 ## MAC
 
+When using python use pyenv to manage different versions of python like nvm or n for javascript
+
 #### Uninstall minikube from System
 minikube stop; minikube delete &&
 
