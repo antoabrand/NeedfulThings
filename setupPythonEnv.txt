@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+brew install pyenv
+
+pyenv install 3.8.5
+
+pyenv global 3.8.5
+
+pyenv version
+
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+
+exec $0
+
+which python
+
+python -V
+
+pip -V
