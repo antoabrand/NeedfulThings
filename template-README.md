@@ -57,8 +57,6 @@ Description, sub-modules organization...
 
 ### Requirements
 
-See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
-
 Sample: <https://github.com/nuxeo/nuxeo/blob/master/nuxeo-distribution/README.md>
 
 ### Limitations
@@ -91,15 +89,3 @@ Link to JIRA component (or project if there is no component for that project). S
 ## License
 
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
-
-## About Nuxeo
-
-Nuxeo Content Platform is an open source Enterprise Content Management platform, written in Java. Data can be stored in both SQL & NoSQL databases.
-
-The development of the Nuxeo Content Platform is mostly done by Nuxeo employees with an open development model.
-
-The source code, documentation, roadmap, issue tracker, testing, benchmarks are all public.
-
-Typically, Nuxeo users build different types of information management solutions for [document management](https://www.nuxeo.com/products/document-management/), [case management](https://www.nuxeo.com/products/case-management/), and [digital asset management](https://www.nuxeo.com/products/digital-asset-management/), use cases. It uses schema-flexible metadata & content models that allows content to be repurposed to fulfill future use cases.
-
-More information is available at [www.nuxeo.com](http://www.nuxeo.com).
