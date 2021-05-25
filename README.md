@@ -74,3 +74,11 @@ docker system prune -af --volumes
 #### SPCTL
 
 sudo spctl --master-disable //enables the ability to Allow 3rd party developer tools in Security and Privacy -> Allow
+
+#### Running Kafka environments
+# Start the ZooKeeper service
+# Note: Soon, ZooKeeper will no longer be required by Apache Kafka.
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# Start the Kafka broker service
+$ bin/kafka-server-start.sh config/server.properties
