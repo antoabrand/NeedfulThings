@@ -1,3 +1,25 @@
+## Getting Lenovo Laptop WIFI working with linux 
+
+sudo add-apt-repository -r ppa:kelebek333/kablosuz 
+sudo apt purge rtw89-dkms 
+sudo apt update
+sudo apt install git bc
+git clone https://github.com/HRex39/rtl8852be.git
+cd rtl8852be
+make
+Several possibly harmless warnings will appear.
+
+sudo make install
+Reboot. You will probably need to disable secure boot.
+
+After each kernel update, you must recompile:
+
+cd rtl8852be
+make clean
+git pull
+make
+sudo make install
+
 ## Git
 
 #### Merge a single file 
